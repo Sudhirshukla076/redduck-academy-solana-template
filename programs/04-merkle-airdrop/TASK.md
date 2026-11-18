@@ -28,9 +28,10 @@ This module ships as a **starter** — the design is yours to figure out.
 1. **Initialize** — record the airdrop token, the Merkle root, and the trusted
    signer; the vault is funded with the tokens.
 2. **Claim (proof)** — prove `(you, amount)` is on the list; receive your tokens.
-3. **Claim (signature)** — present a signature from the trusted signer
+3. 
+4. **Claim (signature)** — present a signature from the trusted signer
    authorizing you to claim `amount`; receive your tokens. No list needed.
-4. Claiming by **either** path marks you claimed — you can't claim again by either.
+5. Claiming by **either** path marks you claimed — you can't claim again by either.
 
 ## Constraint
 
